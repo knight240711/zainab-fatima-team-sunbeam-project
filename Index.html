@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <title>My Perfect Coffee Day</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+ <div id="welcome-screen">
+ <div class="coffee-icon">☕</div>
+
+<h1>My Perfect Coffee Day</h1>
+
+ <p>Start your perfect coffee day!</p>
+ <button id="start">Start Game</button>
+    </div>
+
+
+<!-- COFFEE CHOICE SCREEN --><div id="coffee-screen" class="hidden">
+ <h2>Choose Your Coffee</h2>
+<p>What are you having today?</p>
+ <div class="coffee-options">
+  <button id="latte"> <div class="drink-icon">☕</div>
+ <h3>Salted Caramel Latte</h3>
+<p>Sweet & creamy</p>
+ </button>
+
+<button id="frappe">
+   <div class="drink-icon">🧊</div>
+  <h3>Frappe</h3>
+  <p>Cold & refreshing</p>
+ </button></div>
+
+ </div>
+
+    <!-- INGREDIENT SCREEN -->  <div id="making-screen" class="hidden">
+
+ <h2>Customize Your Coffee</h2>
+ <p id="selected-coffee"></p>
+<p>Choose your ingredients:</p>
+<div class="ingredients">
+
+  <button class="ingredient" id="milk">
+                🥛 Milk
+  </button>
+
+  <button class="ingredient" id="caramel">
+                🍯 Caramel
+  </button>
+
+ <button class="ingredient" id="chocolate">
+                🍫 Chocolate
+ </button>
+ <button class="ingredient" id="ice">
+                🧊 Ice
+ </button>
+
+ </div>
+
+  <button id="make">Make My Coffee ☕</button>
+   <p id="ingredient-message"></p>
+
+</div>
+
+    <!-- FINAL SCREEN -->
+    <div id="final-screen" class="hidden">
+
+  <div class="final-cup">☕</div>
+
+   <h1>Your Coffee Is Ready!</h1>
+
+ <p id="final-message"></p>
+<h2>✨ Perfect Day ✨</h2>
+
+      <button id="restart">Play Again</button>
+
+  </div>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
